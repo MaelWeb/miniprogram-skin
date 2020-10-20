@@ -1,0 +1,15 @@
+var themeColor = {
+  dark: {
+    '@theme-color': '#333',
+  },
+  light: {
+    '@theme-color': '#fd7622',
+  },
+};
+
+
+function getVariable(theme) {
+    return themeColor[theme]
+}
+
+module.exports = getVariable;

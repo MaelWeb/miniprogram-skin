@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container {{theme}}">
+  <button class="btn">小程序换肤</button>
+
+  <radio-group bindchange="radioChange" class="page-section">
+    <view class="page-section-title">选择主题</view>
+    <label class="radio">
+      <radio value="light" checked="true"/>亮色主题
+    </label>
+    <label class="radio">
+      <radio value="dark" />暗色主题
+    </label>
+  </radio-group>
+</view>

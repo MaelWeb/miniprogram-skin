@@ -1,0 +1,33 @@
+{
+  "name": "miniprogram-skin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "tsc": "node ./node_modules/typescript/lib/tsc.js",
+    "dev": "gulp --gulpfile gulpfile.js",
+    "start": "npm run dev",
+    "elfix": "eslint --fix "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "css-aliases": "^1.1.9",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-util": "^3.0.8",
+    "gulp-wechat-weapp-src-alisa": "^1.0.0",
+    "miniprogram-api-typings": "^2.8.3-1",
+    "typescript": "^3.9.7"
+  }
+}

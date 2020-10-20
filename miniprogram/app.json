@@ -1,0 +1,28 @@
+{
+  "pages": ["pages/index/index", "pages/trends/index"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序换肤",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#fd7622",
+    "backgroundColor": "#f8f8f8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "模版换肤",
+        "iconPath": ""
+      },
+      {
+        "pagePath": "pages/trends/index",
+        "text": "动态换肤",
+        "iconPath": ""
+      }
+    ]
+  }
+}
