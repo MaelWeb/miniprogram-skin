@@ -1,9 +1,9 @@
 Page({
   data: {
-    theme: 'light',
+    theme: '#222',
   },
 
-  radioChange(e:{detail: {value: string}}) {
+  onChange(e:{detail: {value: string}}) {
     this.setData({
       theme: e.detail.value,
     })

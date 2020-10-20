@@ -1,0 +1,19 @@
+
+
+function getStyle(style, theme) {
+    return style + ':' + theme;
+}
+
+
+function setStyle(styles = [], theme) {
+    if (!styles || !styles.length) return '';
+
+    var styleArr = []
+    styles.forEach(function(style) {
+        styleArr.push(getStyle(style, theme))
+    })
+
+    return styleArr.join(';');
+}
+
+module.exports = setStyle;

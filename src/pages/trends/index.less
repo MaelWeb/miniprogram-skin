@@ -1,38 +1,24 @@
 @import '@lessVar';
 
-.container() {
-  .btn {
+.container {
+  input {
+    margin-top: 40rpx;
+    padding: 10rpx 20rpx;
     width: 80vw;
     height: 40rpx;
-    color: @colors[ @theme-color];
-    border: 1rpx solid @colors[ @theme-color];
-    background-color: transparent;
-  }
-}
-
-.light {
-  @colors: #theme.colors(light);
-  .container;
-}
-
-
-.dark {
-  @colors: #theme.colors(dark);
-  .container;
-}
-
-
-.page-section {
-  padding: 80rpx;
-  width: 100%;
-  margin-top: 100rpx;
-  box-sizing: border-box;
-
-  &-title {
-    margin-bottom: 20rpx;
+    border: 2rpx solid #333;
+    border-radius: 20rpx;
   }
 
-  .radio {
-    margin-right: 30rpx;
+  .box {
+    margin: 10rpx;
+    width: 80vw;
+    height: 30vw;
+    display: inline-block;
+    border: 4rpx solid #333;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40rpx;
+    line-height: 30vw;
   }
 }

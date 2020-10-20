@@ -1,26 +1,19 @@
-.light .btn {
+.container input {
+  margin-top: 40rpx;
+  padding: 10rpx 20rpx;
   width: 80vw;
   height: 40rpx;
-  color: #fd7622;
-  border: 1rpx solid #fd7622;
-  background-color: transparent;
+  border: 2rpx solid #333;
+  border-radius: 20rpx;
 }
-.dark .btn {
+.container .box {
+  margin: 10rpx;
   width: 80vw;
-  height: 40rpx;
-  color: #000;
-  border: 1rpx solid #000;
-  background-color: transparent;
-}
-.page-section {
-  padding: 80rpx;
-  width: 100%;
-  margin-top: 100rpx;
-  box-sizing: border-box;
-}
-.page-section-title {
-  margin-bottom: 20rpx;
-}
-.page-section .radio {
-  margin-right: 30rpx;
+  height: 30vw;
+  display: inline-block;
+  border: 4rpx solid #333;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 30vw;
 }

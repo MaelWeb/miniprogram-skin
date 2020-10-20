@@ -1,9 +1,9 @@
 "use strict";
 Page({
     data: {
-        theme: 'light',
+        theme: '#222',
     },
-    radioChange: function (e) {
+    onChange: function (e) {
         this.setData({
             theme: e.detail.value,
         });

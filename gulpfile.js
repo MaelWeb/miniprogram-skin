@@ -30,6 +30,7 @@ const aliasConfig = {
     '@Components': _join('components'),
     '@lessVar': _join('theme/variable.less'),
     '@wxsVar': _join('theme/variable.wxs'),
+    '@dynamic': _join('theme/dynamic.wxs'),
 };
 
 function wxss() {
